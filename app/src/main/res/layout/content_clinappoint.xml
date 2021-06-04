@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFCFC"
+        android:gravity="center"
+        android:text="Book an Appointment"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Medico"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/denname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:background="#D6D1D1"
+            android:hint="Select Dentist "
+            android:textColorHint="#171616"
+            android:textStyle="bold"  />
+
+        <Button
+            android:id="@+id/cmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#D6D1D1"
+            android:gravity="center"
+            android:hint="Enter Area"
+            android:textColorHint="#171616"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ecdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#D6D1D1"
+            android:hint="Select Date"
+            android:textColorHint="#171616"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/edtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Select Time"
+            android:textColorHint="#171616"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/densearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F60505"
+            android:text="Book"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

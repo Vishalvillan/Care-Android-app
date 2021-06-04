@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".First9Fragment">
+
+    <Button
+        android:id="@+id/meet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/bg"
+        android:gravity="center|center_horizontal|top"
+        android:hint="Meetings"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A6ABC3"
+        android:textSize="30sp"
+        android:textStyle="normal" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.care">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".detail"></activity>
+        <activity android:name=".staff" />
+        <activity android:name=".meetings2" />
+        <activity android:name=".signup2" />
+        <activity android:name=".signin2" />
+        <activity android:name=".gowhere2" />
+        <activity android:name=".user" />
+        <activity android:name=".meetings" />
+        <activity
+            android:name=".chat"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".getden"
+            android:label="@string/title_activity_getden"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".getdoc"
+            android:label="@string/title_activity_getdoc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".update"
+            android:label="@string/title_activity_update"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD9dRVbqzQkShaVE5UXtwv4lQFcGIn5NK0" />
+
+        <activity android:name=".finder" />
+        <activity
+            android:name=".clinappoint"
+            android:label="@string/title_activity_clinappoint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Appoint"
+            android:label="@string/title_activity_appoint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".gowhere"
+            android:label="@string/title_activity_gowhere"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signin"
+            android:label="@string/title_activity_signin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

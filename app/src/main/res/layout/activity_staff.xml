@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/med"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Login Or SignUp?"
+            android:textColor="?android:attr/colorFocusedHighlight"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#3F7B97"
+            android:hint="SignUp"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#3F7B97"
+            android:hint="Login"
+            android:textColorHint="@android:color/background_light"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</RelativeLayout>

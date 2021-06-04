@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+   android:padding="16dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/txtSub"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_below="@+id/txtName"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="SubTitle"/>
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_below="@+id/txtSub"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="SubTime"/>
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:layout_below="@+id/txtTime"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Subemail"/>
+
+
+</RelativeLayout>
